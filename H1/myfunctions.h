@@ -10,6 +10,6 @@ void calcDiv(int, int);
 
 int retSum(int,int);
 
-int retDiv(int,int);
+float retDiv(int,int);
 
 #endif // MYFUNCTIONS_H

@@ -26,14 +26,13 @@ int retSum(int a, int b)
 
 }
 
-int retDiv(int a, int b)
+float retDiv(int a, int b)
 {
     if(b == 0){
         throw runtime_error("Jakaja ei voi taaskaan olla nolla");
     }
 
-    else {
-    float osamaara = a/b;
+    float osamaara = static_cast<float>(a)/b; // muunnetaan a ennen jakolaskua..
     return osamaara;
-    }
+
 }
